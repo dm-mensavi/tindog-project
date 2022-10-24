@@ -206,11 +206,9 @@ h3 {
     color: #ff4c66;
 }
 
-@media (min-width: 0) and (max-width:720px){
+@media (max-width:720px){
     body {
-        text-align: center;
-        background-color: #373737;
-        color: #373737;
+        font-size: 3rem;
     }
     h1 {
         text-align: center;
@@ -219,7 +217,5 @@ h3 {
     #title .firstbtn {
         margin-left:20% ;
     }
-    #pricing .col {
-        display: block;
-    }
+
 }
