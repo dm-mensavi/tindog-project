@@ -214,4 +214,7 @@ h3 {
     #title .firstbtn {
         margin-left:20% ;
     }
+    #pricing .col {
+        display: block;
+    }
 }
