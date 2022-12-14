@@ -208,24 +208,18 @@ h3 {
 
 @media (max-width:720px){
     #features {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     #features h3 {
-        font-weight: 900;
-        font-size:2.5rem ;
+        font-weight: 300;
+        font-size:1.5rem ;
     }
     h1 {
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     #title .firstbtn {
         margin-left:20% ;
     }
 
-}
-
-@media (max-width:650px) {
-    #testimonials h2 {
-        font-size:1.5rem ;
-    }
 }
