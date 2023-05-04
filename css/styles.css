@@ -21,12 +21,12 @@ h1 {
     padding-top: 50px;
 }
 h2 {   
-    font-size: 3rem;
-    line-height: 1.5;
+    font-size: 2rem;
+    line-height: 1;
     
 }
 h3 {
-    font-weight: 800;
+    font-weight: 600;
     font-size:1.5rem ;
     
 }
@@ -102,11 +102,11 @@ h3 {
     text-align: center;
     background-color: #ef8172;
     color: #fff;
-    padding: 3% 0 8%;
+    padding: 10% 0 8%;
 
 }
 #testimonials h2 {
-    font-size: 3rem;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -177,7 +177,7 @@ h3 {
 #cta h3 {
     color: #fff;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5;
     padding-bottom:5%;
 }
@@ -208,18 +208,131 @@ h3 {
 
 @media (max-width:720px){
     #features {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     #features h3 {
-        font-weight: 300;
+        font-weight: 600;
         font-size:1.5rem ;
     }
     h1 {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
     #title .firstbtn {
         margin-left:20% ;
     }
 
 }
+
+@media (width > 720px){
+    #features {
+        font-size: 2rem;
+    }
+    #features h3 {
+        font-weight: 900;
+        font-size:2.5rem ;
+    }
+    h1 {
+        text-align: center;
+        font-size: 4.5rem;
+    }
+    #title .firstbtn {
+        margin-left:30% ;
+    }
+
+    #testimonials h2 {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+}
+@media (width > 1400px){
+
+    .nav-link {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .navbar-brand {
+        font-size: 4.5rem;
+    }
+
+    h1 {
+        margin-top: 25%;
+        margin-bottom: 1rem;
+        font-size: 6rem;
+    }
+
+    .btn {
+        font-size: 2.5rem;
+    }
+
+    #features {
+        font-size: 3rem;
+    }
+
+    #features h3 {
+        font-size: 3.5rem;
+    }
+
+    #testimonials h2 {
+        font-size: 4.5rem;
+        line-height: 2;
+    }
+
+    h2 {
+        font-size: 5rem;
+        line-height: 2;
+    }
+
+    #pricing {
+        line-height: 4rem;
+        font-size: 2rem;
+        margin-bottom: -600px;
+    }
+
+    #cta h3 {
+        font-size: 3.5rem;
+        line-height: 1.5;
+    }
+
+    :root {
+        --bs-body-font-size: 3rem;
+        --bs-body-font-weight: 700;
+    }
+}
+
+
+
+
+/* Update */
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
+  
